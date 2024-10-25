@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Impede a rolagem */
+}
+
+.tela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+#tela1 {
+    background: url(img/todo-o-padrao-de-coracao-com-fundo-branco_335315-163.avif) repeat; /* Imagem de fundo se repetindo */
+    background-size: auto; /* Mantém o tamanho original da imagem */
+    background-position: top left; /* Começa a repetição no canto superior esquerdo */
+}
+
+#tela2 {
+    background-color: white;
+    padding-left: 15px; /* Adiciona um espaçamento de 50px à esquerda */
+}
+
+.caixa {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px; /* Diminuir o padding */
+    box-shadow: 0 0 15px 5px rgba(128, 0, 128, 0.5); /* Efeito neon roxo fraco */
+    width: 20%; /* Reduzir a largura da caixa */
+    max-width: 500px; /* Limitar a largura máxima */
+    margin: 0 auto; /* Centralizar a caixa horizontalmente */
+    position: relative;
+    overflow: hidden;
+}
+
+.caixa h2 {
+    font-size: 1.2em; /* Tamanho pequeno para o texto */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+    word-wrap: break-word; /* Quebra palavras longas */
+}
+
+.opcoes {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.fundo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 8 colunas */
+    grid-template-rows: repeat(5, 1fr); /* 5 linhas */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.grade img {
+    width: 220px; /* Largura fixa de 300px */
+    height: 180px; /* Altura fixa de 300px */
+    margin-top: 1px;
+    object-fit: cover; /* Mantém a proporção da imagem preenchendo a área */
+    border-radius: 5px;
+}
