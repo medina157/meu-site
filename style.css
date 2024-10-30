@@ -26,10 +26,10 @@ body {
 }
 
 .caixa {
-    background-color: white;
+    background-color: rgb(255, 108, 177);
     border-radius: 10px;
     padding: 10px; /* Diminuir o padding */
-    box-shadow: 0 0 15px 5px rgba(128, 0, 128, 0.5); /* Efeito neon roxo fraco */
+    box-shadow: 0 0 15px 5px rgba(255, 33, 33, 0.5); /* Efeito neon roxo fraco */
     width: 20%; /* Reduzir a largura da caixa */
     max-width: 500px; /* Limitar a largura máxima */
     margin: 0 auto; /* Centralizar a caixa horizontalmente */
@@ -37,10 +37,15 @@ body {
     overflow: hidden;
 }
 
+.caixa h1{ 
+    color: white;
+    font-family: poppins;
+}
+
 .caixa h2 {
-    font-size: 1.2em; /* Tamanho pequeno para o texto */
-    line-height: 1.5; /* Espaçamento entre as linhas */
-    word-wrap: break-word; /* Quebra palavras longas */
+    font-size: 1.0em; /* Tamanho pequeno para o texto */
+    color: white;
+    font-family: poppins;
 }
 
 .opcoes {
@@ -52,6 +57,11 @@ button {
     font-size: 1.2em;
     margin: 0 10px;
     cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: poppins;
+    border-radius: 5px;
+    border-color: rgb(255, 39, 140);
 }
 
 .fundo {
