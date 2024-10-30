@@ -30,7 +30,7 @@ body {
     border-radius: 10px;
     padding: 10px; /* Diminuir o padding */
     box-shadow: 0 0 15px 5px rgba(255, 33, 33, 0.5); /* Efeito neon roxo fraco */
-    width: 20%; /* Reduzir a largura da caixa */
+    width: 15%; /* Reduzir a largura da caixa */
     max-width: 500px; /* Limitar a largura máxima */
     margin: 0 auto; /* Centralizar a caixa horizontalmente */
     position: relative;
